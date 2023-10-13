@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+.topicButton,
+.genreButton {
+  /* font-size: medium; */
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.topicButton:hover,
+.genreButton:hover {
+  background-color: beige;
+}
+
+.list {
+  padding-inline-start: 1rem;
+}
+
+.list li {
+  list-style: none;
+  border: 1px solid blueviolet;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem 0rem;
+}
